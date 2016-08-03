@@ -22110,9 +22110,9 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'Isowood', gameLink: 'http://www.google.com', gameImageLink: '' }),
-	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'mvsc', gameLink: 'www.google.com', gameImageLink: '' }),
-	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'The Wonderful Shooter', gameLink: 'www.google.com', gameImageLink: '' })
+	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'Isowood', gameLink: 'http://www.google.com', gameImageLink: '/../../public/img/isowood.png' }),
+	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'mvsc', gameLink: 'www.google.com', gameImageLink: '../../public/img/mvsc.png' }),
+	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'The Wonderful Shooter', gameLink: 'www.google.com', gameImageLink: '../../public/img/shooter.jpg' })
 	      );
 	    }
 	  }]);

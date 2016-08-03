@@ -11,9 +11,9 @@ export default class GamesBoard extends React.Component {
   render() {
     return(
       <div>
-        <GameCard gameTitle="Isowood" gameLink="http://www.google.com" gameImageLink=""/>
-        <GameCard gameTitle="mvsc" gameLink="www.google.com" gameImageLink=""/>
-        <GameCard gameTitle="The Wonderful Shooter" gameLink="www.google.com" gameImageLink=""/>
+        <GameCard gameTitle="Isowood" gameLink="http://www.google.com" gameImageLink="/../../public/img/isowood.png"/>
+        <GameCard gameTitle="mvsc" gameLink="www.google.com" gameImageLink="../../public/img/mvsc.png"/>
+        <GameCard gameTitle="The Wonderful Shooter" gameLink="www.google.com" gameImageLink="../../public/img/shooter.jpg"/>
       </div>
     );
   }
