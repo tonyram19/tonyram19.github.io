@@ -88,7 +88,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_Title2.default, { text: 'Tony Ramirez' }),
+	        _react2.default.createElement(_Title2.default, { text: 'Tony Ramírez' }),
 	        _react2.default.createElement(_GamesBoard2.default, null)
 	      );
 	    }
