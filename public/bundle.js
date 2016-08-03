@@ -22050,7 +22050,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'p',
-	          null,
+	          { className: 'description' },
 	          'I\'m a game developer from Venezuela. I enjoy programming, solving challenging problems and creating cool interactive experiences.'
 	        )
 	      );

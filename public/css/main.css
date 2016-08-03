@@ -6,3 +6,18 @@
 body {
     font-family: fanwood;
 }
+
+.title, .description {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 35%;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.description {
+  font-size: 20px;
+}

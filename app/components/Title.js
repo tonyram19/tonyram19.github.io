@@ -10,7 +10,7 @@ export default class Title extends React.Component {
     return (
       <div>
         <h1 className="title">{this.props.text}</h1>
-        <p>
+        <p className="description">
           I'm a game developer from Venezuela.
           I enjoy programming, solving challenging problems and creating cool interactive experiences.
         </p>
