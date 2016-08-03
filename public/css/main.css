@@ -7,17 +7,47 @@ body {
     font-family: fanwood;
 }
 
-.title, .description {
+.title, .description, .gamesBoardTitle {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 35%;
 }
 
-.title {
+.title{
   margin-top: 40px;
 }
 
+.gamesBoard {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 95%;
+}
+
 .description {
-  font-size: 150%;
+  font-size: 130%;
+}
+
+.gameCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 30%;
+}
+
+.gameImage {
+  box-shadow: 1px 1px 5px black;
+  width: 90%;
+}
+
+.gameLink {
+  color: black;
+  display: block;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 10px;
+  text-decoration: none;
 }

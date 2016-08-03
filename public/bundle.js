@@ -22109,9 +22109,14 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'gamesBoard' },
+	        _react2.default.createElement(
+	          'h2',
+	          { className: 'gamesBoardTitle' },
+	          'Games'
+	        ),
 	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'Isowood', gameLink: 'http://www.google.com', gameImageLink: '/../../public/img/isowood.png' }),
-	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'mvsc', gameLink: 'www.google.com', gameImageLink: '../../public/img/mvsc.png' }),
+	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'MVSC', gameLink: 'www.google.com', gameImageLink: '../../public/img/mvsc.png' }),
 	        _react2.default.createElement(_GameCard2.default, { gameTitle: 'The Wonderful Shooter', gameLink: 'www.google.com', gameImageLink: '../../public/img/shooter.jpg' })
 	      );
 	    }
@@ -22165,18 +22170,17 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'h3',
-	          null,
-	          this.props.gameTitle
-	        ),
+	        { className: 'gameCard' },
 	        _react2.default.createElement(
 	          'a',
 	          { href: this.props.gameLink, target: '_blank' },
-	          'Play'
+	          _react2.default.createElement('img', { className: 'gameImage', src: this.props.gameImageLink })
 	        ),
-	        _react2.default.createElement('img', { src: this.props.gameImageLink })
+	        _react2.default.createElement(
+	          'a',
+	          { className: 'gameLink', href: this.props.gameLink, target: '_blank' },
+	          this.props.gameTitle
+	        )
 	      );
 	    }
 	  }]);
