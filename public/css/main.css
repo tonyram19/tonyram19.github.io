@@ -1,0 +1,8 @@
+@font-face {
+    font-family: fanwood;
+    src: url("../fonts/Fanwood Text.otf");
+}
+
+body {
+    font-family: fanwood;
+}
