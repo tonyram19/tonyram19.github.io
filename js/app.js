@@ -25,6 +25,10 @@ app.directive("contactSection", function() {
         controller: function() {
             var contact = [
                 {
+                    name: "Github",
+                    url: "http://github.com/tonyram19"
+                },
+                {
                     name: "LinkedIn",
                     url: "https://ve.linkedin.com/in/ramireztony"
                 },
@@ -35,10 +39,6 @@ app.directive("contactSection", function() {
                 {
                     name: "Bitbucket",
                     url: "http://bitbucket.com/tonyram19"
-                },
-                {
-                    name: "Github",
-                    url: "http://github.com/tonyram19"
                 },
                 {
                     name: "tonyram20@gmail.com",
