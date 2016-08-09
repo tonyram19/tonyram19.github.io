@@ -35,6 +35,10 @@ app.directive("contactSection", function() {
         {
           name: "Bitbucket",
           url: "http://bitbucket.com/tonyram19"
+        },
+        {
+          name: "tonyram20@gmail.com",
+          url: "mailto:tonyram20@gmail.com"
         }
       ];
       this.sites = contact;
