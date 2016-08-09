@@ -1,28 +1,28 @@
 <div class=" container">
 
-  <div class="navbar navbar-default">
+    <div class="navbar navbar-default">
 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="navbar-brand">TONY RAMÍREZ</div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand">TONY RAMÍREZ</div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="menuBar">
+            <ul class="nav navbar-nav">
+                <li ng-class="{active:!topSection.isInContactsPage}"><a href="#" ng-click="topSection.goToGames()">Games</a></li>
+                <li ng-class="{active:topSection.isInContactsPage}"><a href="#" ng-click="topSection.goToContacts()">Contact</a></li>
+            </ul>
+        </div>
+
     </div>
 
-    <div class="collapse navbar-collapse" id="menuBar">
-      <ul class="nav navbar-nav">
-        <li ng-class="{active:!topSection.isInContactsPage}"><a href="#" ng-click="topSection.goToGames()">Games</a></li>
-        <li ng-class="{active:topSection.isInContactsPage}"><a href="#" ng-click="topSection.goToContacts()">Contact</a></li>
-      </ul>
-    </div>
-
-  </div>
-
-  <p>
-    I'm a programmer from Venezuela.
-    I enjoy programming, solving challenging problems and creating cool interactive experiences.
-  </p>
+    <p>
+        I'm a programmer from Venezuela.
+        I enjoy programming, solving challenging problems and creating cool interactive experiences.
+    </p>
 
 </div>
