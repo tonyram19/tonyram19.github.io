@@ -56,6 +56,7 @@ app.directive("gamesSection", function() {
         restrict: 'E',
         templateUrl: '../views/games-section.html',
         controller: function() {
+
             var gamesArray = [
                 {
                     name: "Isowood",
@@ -74,7 +75,21 @@ app.directive("gamesSection", function() {
                 }
             ];
 
+            var appsArray = [
+                {
+                    name: "Notes App",
+                    imgUrl: "../img/notes.jpg",
+                    appUrl: "https://ramireztony.herokuapp.com/",
+                },
+                {
+                    name: "Football App",
+                    imgUrl: "../img/football.jpg",
+                    appUrl: "https://my-football-app.herokuapp.com/",
+                }
+            ];
+
             this.games = gamesArray;
+            this.apps = appsArray;
         },
         controllerAs: 'gamesSection'
     };
