@@ -51,10 +51,10 @@ app.directive("contactSection", function() {
     };
 });
 
-app.directive("gamesSection", function() {
+app.directive("projectsSection", function() {
     return {
         restrict: 'E',
-        templateUrl: '../views/games-section.html',
+        templateUrl: '../views/projects-section.html',
         controller: function() {
 
             var gamesArray = [
@@ -91,6 +91,6 @@ app.directive("gamesSection", function() {
             this.games = gamesArray;
             this.apps = appsArray;
         },
-        controllerAs: 'gamesSection'
+        controllerAs: 'projectsSection'
     };
 });

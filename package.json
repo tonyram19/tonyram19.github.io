@@ -1,0 +1,24 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "This is my personal website.\r It was made as a small learning excercise using AngularJS and Bootstrap.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyram19/tonyram19.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyram19/tonyram19.github.io/issues"
+  },
+  "homepage": "https://github.com/tonyram19/tonyram19.github.io#readme"
+}

@@ -1,0 +1,18 @@
+<div class="container">
+
+    <h3>Games</h3>
+    <div class="row">
+        <div class="col-md-4" ng-repeat="game in projectsSection.games">
+            <a href="{{game.gameUrl}}"><img ng-src="{{game.imgUrl}}" class="img-responsive center-block" style="width:400px; height:180px" /></a>
+            <h5 class="text-center"><a href="{{game.gameUrl}}">{{game.name}}</a></h5>
+        </div>
+    </div>
+
+    <h3>Other Apps</h3>
+    <div class="row">
+        <div class="col-md-6" ng-repeat="app in projectsSection.apps">
+            <a href="{{app.appUrl}}"><img ng-src="{{app.imgUrl}}" class="img-responsive center-block" style="width:300px; height:180px" /></a>
+            <h5 class="text-center"><a href="{{app.appUrl}}">{{app.name}}</a></h5>
+        </div>
+    </div>
+</div>
